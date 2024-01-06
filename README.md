@@ -16,3 +16,10 @@ A Node.js sleep journal and sleep efficiency calculator, most helpful for [Sleep
 ## View report
 
 Run `npm run start` to see the last seven days, your weekly sleep efficiency (time asleep vs. time in bed), and a recommendation.
+
+## Resources
+
+- [CBT-I video overview](https://www.youtube.com/watch?v=PFP7LOQNbO8&themeRefresh=1)
+- [Sleep Restriction Therapy protocol](https://stanfordhealthcare.org/medical-treatments/c/cognitive-behavioral-therapy-insomnia/procedures/sleep-restriction.html)
+- [Stellar Sleep (self-guided CBT-I app)](https://stellarsleep.com/)
+- [Sleep Reset (self-guided CBT-I app)](https://www.thesleepreset.com/)
