@@ -33,7 +33,7 @@ I've stumbled upon a couple of one-liners that have deeply impressed me that, th
 
 > He will bring you enough.
 
-Or, as a YouTuber put it, _What you got yesterday was enough_. This is a one-liner I feel like I "heard" from God at the beginning of my sleep journey, and it has been with me ever since. This is just a rephrase of the line in the famous "Our Father" prayer, _Give us today our daily bread_, which is an allusion to when God fed the Israelites in the desert with a mysterious wafer-like substance. This strange form of sustenance, called _manna_, developed into a larger trope, "the bread that comes from heaven," with the idea being that God is ultimately the source of everything we need, and He always gives us enough, which is of course not more than enough many times!
+Or, as a YouTuber put it, _What you got yesterday was enough_. This is a one-liner I feel like I "heard" from God at the beginning of my sleep journey, and it has been with me ever since. This is just a rephrase of the line in the famous "Our Father" prayer, _Give us today our daily bread_, which is an allusion to when God fed the Israelites in the desert with a mysterious wafer-like substance. This daily provision developed into a larger trope, "the bread that comes from heaven," with the idea being that God is ultimately the source of everything we need, and He always gives us enough, which is of course not more than enough many times!
 
 Translating to sleep, our bodies are deeply wired to get sleep when we need it, and while issues (like anxiety) can push that sleep to the bare minimum, the body still knows what it needs. I can trust that what I got yesterday and tonight is enough.
 
