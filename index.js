@@ -2,7 +2,7 @@ import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat.js';
 import duration from 'dayjs/plugin/duration.js';
 import { readFile } from 'fs/promises';
-import { mean, round } from 'mathjs';
+import { floor, mean, round } from 'mathjs';
 import { resolve } from 'path';
 import { ENTRIES_DIR } from './constants.js';
 
@@ -83,6 +83,17 @@ const formattedEntries = entries.map(
 const getMeanSleepEfficiency = (entries) =>
   round(mean(entries.map(({ sleepEfficiency }) => sleepEfficiency)), 2);
 
+const getMeanTimeAsleep = (entries) => {
+  const minutes = round(
+    mean(entries.map(({ timeAsleep }) => timeAsleep.asMinutes())),
+  );
+
+  return dayjs.duration({
+    hours: floor(minutes / 60),
+    minutes: minutes % 60,
+  });
+};
+
 const getRecommendation = (entries) => {
   const recommendations = {
     'Your sleep efficiency this week was low. Consider removing 15–30 minutes from your sleep window.':
@@ -113,6 +124,8 @@ ${formattedEntries
 - Sleep efficiency: ${sleepEfficiency}`,
   )
   .join('\n\n')}
+
+Weekly Time Asleep: ${getMeanTimeAsleep(entries).format('H[h] m[m]')}.
 
 Weekly Sleep Efficiency: ${
   getMeanSleepEfficiency(entries) * 100
